@@ -1,0 +1,64 @@
+.service {
+  padding: 0 .4rem;
+  border-top: .2rem solid #f7f8f9;
+  border-bottom: .2rem solid #f7f8f9;
+  font-size: .24rem;
+  color: #707473;
+  background-color: #fff;
+
+  .item-sub-title { border-bottom: none; }
+  .contact-info {
+    height: 0;
+    margin: 0 -.4rem;
+    line-height: .44rem;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f7f8f9;
+    transition: all .3s;
+
+    &.active {
+      height: 1.92rem;
+    }
+    p {
+      padding: .3rem 0;
+    }
+    b {
+      padding: .1rem 0;
+      font-weight: normal;
+      color: #44a8f2;
+    }
+    a { color: #707473; }
+  }
+  .item-list {
+    height: 2.2rem;
+    margin: 0 -.1rem;
+
+    .item {
+      float: left;
+      width: 33.333%;
+      height: 1.66rem;
+      padding: .12rem .1rem 0;
+
+      a {
+        display: block;
+        height: 100%;
+        padding-top: .9rem;
+        border: 1px solid #eee;
+        color: #707473;
+        text-align: center;
+      }
+    }
+    .item-email {
+      background: url(../assets/img/icon-email.png) no-repeat 50% .32rem;
+      background-size: .72rem .72rem;
+    }
+    .item-chat {
+      background: url(../assets/img/icon-chat.png) no-repeat 50% .32rem;
+      background-size: .72rem .72rem;
+    }
+    .item-phone {
+      background: url(../assets/img/icon-phone.png) no-repeat 50% .32rem;
+      background-size: .72rem .72rem;
+    }
+  }
+}

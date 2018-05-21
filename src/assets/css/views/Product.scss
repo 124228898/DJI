@@ -1,0 +1,100 @@
+.product {
+  padding-bottom: 2.2rem;
+
+  .product-info {
+    padding: 0 .4rem .4rem .4rem;
+    margin-bottom: .2rem;
+    background: #fff;
+
+    .product-name {
+      padding-top: .3rem;
+      padding-bottom: .2rem;
+      line-height: .48rem;
+      font-size: .32rem;
+      color: #333;
+    }
+    .product-price {
+      line-height: 18px;
+      font-size: .28rem;
+      color: #333;
+    }
+    .product-postage {
+      margin-top: .2rem;
+      line-height: .36rem;
+      font-size: .28rem;
+      color: #4a4a4a;;
+    }
+    .product-instalments {
+      font-size: .28rem;
+      margin-top: .1rem;
+      color: #44a8f2;
+    }
+  }
+
+  .product-ft {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    max-width: 768px;
+    box-shadow: 0 -2px 4px rgba(0,0,0,.1);
+    background-color: #fff;
+    transform: translate3d(-50%, 0, 0);
+
+    .delivery-time {
+      height: .88rem;
+      line-height: .88rem;
+      padding-left: .76rem;
+      font-size: .24rem;
+      color: #707473;
+      word-wrap: break-word;
+      border-bottom: 1px solid #ddd;
+      background: url(https://asset2.djicdn.com/assets/images/product/shipping-93b944bed7a5e228a70faccd799f2f70.png) no-repeat .2rem;
+      background-size: .52rem;
+    }
+    .buy-info {
+      display: table;
+      width: 100%;
+      padding: .2rem;
+
+      .item-pic {
+        display: inline-block;
+        width: .72rem;
+        height: .72rem;
+        margin-right: 5px;
+        border: 1px solid #ddd;
+
+        img {
+          display: inline-block;
+          max-width: 100%;
+          min-width: 100%;
+          vertical-align: middle;
+        }
+      }
+      .price {
+        display: inline-block;
+        vertical-align: middle;
+
+        span {
+          display: block;
+          font-size: .24rem;
+
+          &:nth-child(2) {
+            text-decoration: line-through;
+            color: #979797;
+          }
+        }
+      }
+      .btn-buy {
+        float: right;
+        margin-top: .12rem;
+        padding: .09rem .18rem;
+        line-height: 1.4;
+        font-size: .24rem;
+        border-radius: 2px;
+        color: #fff;
+        background-color: #44a8f2;
+      }
+    }
+  }
+}

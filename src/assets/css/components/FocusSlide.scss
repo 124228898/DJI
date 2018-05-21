@@ -1,0 +1,51 @@
+.focus-slide {
+  position: relative;
+  width: 100%;
+  height: 4.12rem;
+
+  .item { color: #fff; }
+  .item-img {
+    display: block;
+    width: 100%;
+  }
+  .item-title {
+    bottom: .82rem;
+    font-size: .4rem;
+    transform: translate3d(0, -.25rem, 0);
+  }
+  .item-desc {
+    bottom: .5rem;
+    font-size: .24rem;
+    transform: translate3d(0, .25rem, 0);
+  }
+  .item-title,
+  .item-desc {
+    position: absolute;
+    left: .3rem;
+    opacity: 0;
+    font-weight: normal;
+    transition: all .5s ease .35s;
+  }
+  .swiper-slide-active .item-title,
+  .swiper-slide-active .item-desc {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  .swiper-pagination {
+    position: absolute;
+    bottom: .2rem;
+    left: 0;
+    width: 100%;
+
+    .swiper-pagination-bullet {
+      width: .8rem;
+      height: .04rem;
+      margin: 0 .1rem;
+      border-radius: 0;
+      opacity: 1;
+      background-color: rgba(209, 209, 209, .5);
+      transition: all .2s;
+    }
+    .swiper-pagination-bullet-active { background-color: rgba(209, 209, 209, 1 ); }
+  }
+}

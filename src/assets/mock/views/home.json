@@ -1,0 +1,361 @@
+{
+  "focusSlideData": [
+    {
+      "title": "御 MAVIC AIR",
+      "desc": "便携可折叠，性能不妥协",
+      "color": "#fff",
+      "img": "https://stormsend1.djicdn.com/stormsend/uploads/e4142810-df58-0135-3767-12528100fbe3/M%E7%AB%AF%E9%A6%96%E9%A1%B5banner.jpg",
+      "href": "#"
+    },
+    {
+      "title": "TELLO",
+      "desc": "趣味无人机，仅售 ￥699",
+      "color": "#fff",
+      "img": "https://stormsend1.djicdn.com/stormsend/uploads/754c8920-ee2d-0135-37c8-12528100fbe3/Guava-M%E7%AB%AFbanner_%E6%97%A0%E6%96%87%E5%AD%97_.jpg",
+      "href": "#"
+    },
+    {
+      "title": "DJI SELECT 会员计划",
+      "desc": "最高5折优惠｜优先发货｜生日礼遇",
+      "color": "#000",
+      "img": "https://stormsend1.djicdn.com/stormsend/uploads/35be80b0-0e50-0136-38c4-12528100fbe3/store_kv_750-412px_cn.jpeg",
+      "href": "#"
+    }
+  ],
+  "promotionsData": [
+    {
+      "pic": "https://stormsend1.djicdn.com/stormsend/uploads/7e418690-0d58-0136-38b9-12528100fbe3/%E6%96%B0%E9%A3%9E%E6%89%8B%E6%88%90%E9%95%BF%E8%AE%A1%E5%88%92.png",
+      "title": "新飞手成长计划"
+    },
+    {
+      "pic": "https://stormsend1.djicdn.com/stormsend/uploads/ab4b8470-0d57-0136-38b8-12528100fbe3/%E6%95%99%E8%82%B2%E6%8A%98%E6%89%A3.png",
+      "title": "教育折扣"
+    }
+  ],
+  "collectionsData": [
+    {
+      "title": "“御”Mavic",
+      "moreLink": "#",
+      "seriesList": [
+        {
+          "pic": "https://product2.djicdn.com/uploads/sku/covers/30934/small_beceb8fe-c7d6-41c9-9d36-e6b608c7f059.png",
+          "name": "\"御\" Mavic Air",
+          "price": "¥ 4999",
+          "remarks": ""
+        },
+        {
+          "pic": "https://product2.djicdn.com/uploads/spu/covers/30436/small_5e5875f9-f465-470c-b16c-bfd779e40536.png",
+          "name": "\"御\" Mavic Pro 铂金版",
+          "price": "¥ 6999",
+          "remarks": ""
+        },
+        {
+          "pic": "//product3.djicdn.com/uploads/sku/covers/30020/small_5a28a1af-ee71-4e7d-908f-0545b2c9dfd6.png",
+          "name": "\"御\" Mavic Pro",
+          "price": "¥ 6499",
+          "remarks": ""
+        },
+        {
+          "pic": "//product3.djicdn.com/uploads/sku/covers/30025/small_77bd1b9c-9a63-429c-a304-f75be5eb1b78.png",
+          "name": "Mavic Pro 智能飞行电池",
+          "price": "¥ 499",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/bundle/covers/31027/small_54fa086c-9a78-4542-b601-b83f6cd332b0.png",
+          "name": "\"御\" Mavic Air 全能套装",
+          "price": "¥ 6399",
+          "remarks": "已优惠 ¥ 453"
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/spu_bundle/covers/30029/small_69f1c348-abf3-4c6f-bdc4-2bf90c6cd69b.png",
+          "name": "\"御\" Mavic Pro 全能套装",
+          "price": "¥ 7999",
+          "remarks": "已优惠 ¥ 592"
+        },
+        {
+          "pic": "https://product3.djicdn.com/uploads/sku/covers/30040/small_ed83f3c2-28d3-47b4-9832-3d7d80754da4.png",
+          "name": "Mavic Pro 电池管家",
+          "price": "¥ 199",
+          "remarks": ""
+        },
+        {
+          "pic": "//product3.djicdn.com/uploads/sku/covers/30039/small_b99bbfbd-4204-4449-ab08-f312dde298d8.png",
+          "name": "Mavic Pro 车载充电器",
+          "price": "¥ 299",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/30024/small_d711186f-abbb-45c7-a646-0691e1e2f599.png",
+          "name": "Mavic Pro 快拆折叠螺旋桨",
+          "price": "¥ 49",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/30038/small_eed4c890-abe2-41f7-a004-d4081b7d0072.png",
+          "name": "Mavic Pro 电池-充电宝转换器",
+          "price": "¥ 99",
+          "remarks": ""
+        },
+        {
+          "pic": "//product3.djicdn.com/uploads/sku/covers/30041/small_b675ff76-9abd-474f-8b06-fa869b91082f.png",
+          "name": "Mavic Pro 单肩包",
+          "price": "¥ 399",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/30021/small_46b9923b-ccfe-4670-97a4-c36f5aad6513.png",
+          "name": "Mavic Pro 云台保护罩",
+          "price": "¥ 69",
+          "remarks": ""
+        },
+        {
+          "pic": "https://product3.djicdn.com/uploads/sku/covers/30328/small_a0f883a9-fe96-4a6c-917c-e3f394b6e938.png",
+          "name": "DJI 飞行眼镜",
+          "price": "¥ 2399",
+          "remarks": "已优惠 ¥ 300"
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/30786/small_4056db0a-c307-4a1c-a102-185362170fe4.png",
+          "name": "DJI 飞行眼镜竞速版",
+          "price": "¥ 3599",
+          "remarks": ""
+        }
+      ]
+    },
+    {
+      "title": "“晓”Spark",
+      "moreLink": "#",
+      "seriesList": [
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/30428/small_27e23f67-b75c-4eff-b79f-70f76e83dbf8.png",
+          "name": "\"晓\" Spark",
+          "price": "¥ 2999",
+          "remarks": "已优惠 ¥ 300"
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/bundle/covers/30440/small_521ec80a-1b81-498a-8f3a-a27b031e51b9.png",
+          "name": "\"晓\" Spark 全能套装",
+          "price": "¥ 3999",
+          "remarks": "已优惠 ¥ 1394"
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/30436/small_fb253b0a-fe3d-4ddf-9ac9-bc0c0c1cc78e.png",
+          "name": "Spark 遥控器",
+          "price": "¥ 699",
+          "remarks": "已优惠 ¥ 200"
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/30431/small_b2a51a4b-60bd-491c-9b89-3211d6ee9d22.png",
+          "name": "Spark 智能飞行电池",
+          "price": "¥ 299",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/30766/small_059c3571-6b2f-4c58-92fb-264d3a6e9a67.png",
+          "name": "Spark 移动充电盒",
+          "price": "¥ 499",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/30434/small_0a3425b6-c741-4ab0-bd6e-a492d1f36f91.png",
+          "name": "Spark 快拆折叠螺旋桨",
+          "price": "¥ 49",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/30435/small_a0a65e02-e071-4d43-902a-1ee74279c016.png",
+          "name": "Spark 桨叶保护罩",
+          "price": "¥ 99",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/30433/small_1b744ae0-8ef5-49e9-9fca-9fb15596b339.png",
+          "name": "Spark 充电管家",
+          "price": "¥ 399",
+          "remarks": ""
+        }
+      ]
+    },
+    {
+      "title": "Phantom",
+      "moreLink": "#",
+      "seriesList": [
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/30084/small_13526a4e-cd72-43ac-8a9f-4cc1a7daab46.png",
+          "name": "精灵 Phantom 4 Pro",
+          "price": "¥ 9999",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/30330/small_eb3ccbf4-ed32-4b5e-8298-d38230da9b0c.png",
+          "name": "精灵 Phantom 4 Advanced",
+          "price": "¥ 7999",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/5671/small_phantom_4__-cover2_.png",
+          "name": "Phantom 4 系列车载充电器",
+          "price": "¥ 420",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/4421/small_c5fc7b0a-e450-4fb9-a5a2-8ffc05e28d5e.png",
+          "name": "Phantom 4 系列快拆桨",
+          "price": "¥ 49",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/196/small_8362a5dd-6cc7-486f-8609-d7927a7058b5.png",
+          "name": "Phantom 3 智能飞行电池",
+          "price": "¥ 849",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/401/small_c1.png",
+          "name": "Phantom 3 全塑胶自紧桨",
+          "price": "¥ 35",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/481/small_cover-2.png",
+          "name": "Phantom 3 桨叶保护罩",
+          "price": "¥ 99",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/2711/small_phantom_3__-cover.png",
+          "name": "Phantom 3 车载充电器套装",
+          "price": "¥ 499",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/831/small_cc.png",
+          "name": "遥控器遮光罩手机版",
+          "price": "¥ 59",
+          "remarks": ""
+        }
+      ]
+    },
+    {
+      "title": "Inspire",
+      "moreLink": "#",
+      "seriesList": [
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/30064/small_275cd727-41ae-4a46-af32-a1d9274cd9ce.png",
+          "name": "\"悟\" Inspire 2",
+          "price": "¥ 19999",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/126/small_inspire-tb47_3x.png",
+          "name": "\"悟\" Inspire 1 TB47 智能飞行电池 (4500mAh)",
+          "price": "¥ 899",
+          "remarks": "已优惠 ¥ 60"
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/5561/small_ccc.png",
+          "name": "Osmo X5 连接件",
+          "price": "¥ 599",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/4491/small_x5r-c.png",
+          "name": "禅思 Zenmuse X5R",
+          "price": "¥ 22999",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/1711/small_cc.png",
+          "name": "禅思 Zenmuse X5",
+          "price": "¥ 10499",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/841/small_cc.png",
+          "name": "遥控器遮光罩平板版",
+          "price": "¥ 79",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/bundle/covers/361/small_cover.png",
+          "name": "\"悟\" Inspire 1 100 W 充电器 (含AC线)",
+          "price": "¥ 305",
+          "remarks": ""
+        },
+        {
+          "pic": "//product3.djicdn.com/uploads/sku/covers/130/small_inspire-remote-white_3x.png",
+          "name": "Inspire 1 遥控器",
+          "price": "¥ 2799",
+          "remarks": ""
+        }
+      ]
+    },
+    {
+      "title": "“灵眸” Osmo",
+      "moreLink": "#",
+      "seriesList": [
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/31050/small_dba9dc08-ae6b-4179-9dc0-53bb1c562e59.png",
+          "name": "灵眸 Osmo 手机云台 2",
+          "price": "¥ 899",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/7171/small_osmo-plus_3x.png",
+          "name": "灵眸 Osmo+ 手持云台相机",
+          "price": "¥ 3299",
+          "remarks": "已优惠 ¥ 700"
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/spu_bundle/covers/30586/small_d36fa088-cc25-4d01-94e0-ed416c05bef4.png",
+          "name": "灵眸 Osmo Pro 手持云台相机套装",
+          "price": "¥ 12699",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/bundle/covers/2461/small_osmo-handle-c.png",
+          "name": "Osmo 手柄套装",
+          "price": "¥ 1699",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/5561/small_ccc.png",
+          "name": "Osmo X5 连接件",
+          "price": "¥ 599",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/2401/small___C.png",
+          "name": "Osmo 智能电池 (980mAh)",
+          "price": "¥ 199",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/5951/small_c.png",
+          "name": "Osmo Z轴增稳器",
+          "price": "¥ 849",
+          "remarks": ""
+        },
+        {
+          "pic": "//product2.djicdn.com/uploads/sku/covers/4071/small_c.png",
+          "name": "曼富图步行者双肩背包GPM",
+          "price": "¥ 399",
+          "remarks": ""
+        },
+        {
+          "pic": "//product4.djicdn.com/uploads/sku/covers/4061/small_c.png",
+          "name": "Osmo 底座",
+          "price": "¥ 69",
+          "remarks": ""
+        },
+        {
+          "pic": "//product1.djicdn.com/uploads/sku/covers/2311/small_universal-mount-c.png",
+          "name": "Osmo 通用支架组件",
+          "price": "¥ 149",
+          "remarks": ""
+        }
+      ]
+    }
+  ]
+}

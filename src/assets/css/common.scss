@@ -1,0 +1,51 @@
+// 标题
+.header-title {
+  margin: .4rem .4rem .3rem;
+  line-height: .32rem;
+  font-size: .28rem;
+  font-weight: normal;
+  color: #333;
+}
+
+// 副标题
+.item-sub-title {
+  padding: .4rem 0 .3rem 0;
+  border-bottom: 1px solid #eee;
+  line-height: .32rem;
+  font-size: .24rem;
+  color: #333;
+}
+
+// 产品名称
+.product-name {
+  display: -webkit-box;
+  margin: 0;
+  padding: 0;
+  //height: .72rem;
+  line-height: 1.3;
+  font-size: .26rem;
+  font-weight: 400;
+  color: #707473;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+// 产品价格
+.product-price {
+  display: block;
+  margin-top: .1rem;
+  font-size: .24rem;
+  font-family: 'Open Sans';
+  color: #44a8f2;
+}
+
+// 产品备注
+.product-remarks {
+  display: block;
+  color: #fc495f;
+  font-family: 'Open Sans';
+  font-size: .24rem;
+}

@@ -1,0 +1,25 @@
+.series-tab-content {
+  .focus-banner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 37.5%;
+    margin-bottom: .2rem;
+    background-color: #2b2c2c;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .focus-banner-name {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    font-size: .32rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,169 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 999;
+  width: 100.5%;
+  height: 100%;
+  max-width: 768px;
+  min-width: 320px;
+  pointer-events: none;
+  transform: translateX(-50%);
+}
+.menu-hd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 1.1rem;
+  border-bottom: 1px solid transparent;
+  pointer-events: auto;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+  background-color: #fff;
+
+  .logo {
+    width: 1.8rem;
+    height: 100%;
+    margin: 0 auto;
+    text-indent: -9999px;
+    background: url(../assets/img/logo.svg) no-repeat center center;
+    background-size: 100% auto;
+  }
+  .btn-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    text-indent: -9999px;
+    overflow: hidden;
+
+    span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: .4rem;
+      height: .04rem;
+      margin: -.02rem 0 0 -.2rem;
+      transition: all .2s ease-in;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #6a6d69;
+        transition: all .25s ease-in .2s;
+      }
+    }
+    span:nth-child(1) { transform: translateY(-.1rem); }
+    span:nth-child(3) { transform: translateY(.1rem); }
+    span:nth-child(2):before { transition: all .7s ease-in .02s; }
+    &.active {
+      span { transform: translateY(0); }
+      span:nth-child(1):before { transform: rotate3d(0, 0, 1,  45deg); };
+      span:nth-child(3):before { transform: rotate3d(0, 0, 1, -45deg); };
+      span:nth-child(2):before {
+        opacity: 0;
+        transition: all .2s ease-in .2s;
+      }
+    }
+  }
+  .btn-search {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    width: .8rem;
+    height: 1.1rem;
+    text-indent: -9999rem;
+    background: url(../assets/img/icon-search.svg) no-repeat 50% 50%;
+    background-size: .4rem;
+  }
+  .btn-shopping-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1rem;
+    height: 1.1rem;
+    font-size: .26rem;
+    background: url(../assets/img/icon-shopping-cart.svg) no-repeat .1rem 50%;
+    background-size: .45rem;
+
+    i {
+      position: absolute;
+      top: .1rem;
+      right: .2rem;
+      width: .48rem;
+      height: .48rem;
+      line-height: .48rem;
+      border-radius: 50%;
+      text-align: center;
+      color: #fff;
+      background-color: #fc495f;
+    }
+  }
+}
+.menu-bd {
+  position: absolute;
+  top: 1.1rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: auto;
+  background-color: #fff;
+
+  .menu-list {
+    padding: 0 .4rem;
+    background-color: #fff;
+
+    .item {
+      position: relative;
+      width: 100%;
+      height: .9rem;
+      line-height: .9rem;
+      font-size: .28rem;
+      border-bottom: 1px solid #eee;
+      color: #707473;
+
+      &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: .48rem;
+        height: .48rem;
+        background: url(https://asset2.djicdn.com/assets/images/header/arrow-36dad273465fa755b72c37465a836692.svg) 50% no-repeat;
+        background-size: .3rem;
+        transform: rotate(-90deg) translateX(50%);
+      }
+    }
+    .series-list {
+      & > .item {
+        padding-left: 1.4rem;
+
+        img {
+          position: absolute;
+          top: 0;
+          left: -.05rem;
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+  .change-country {
+    height: 1.28rem;
+    line-height: 1.08rem;
+    border-bottom: .2rem solid #f7f8f9;
+    font-size: .24rem;
+    text-align: center;
+    color: #44a8f2;
+  }
+  .menuToggle-enter-active,
+  .menuToggle-leave-active { transition: opacity .1s; }
+  .menuToggle-enter,
+  .menuToggle-leave-to { opacity: 0; }
+}

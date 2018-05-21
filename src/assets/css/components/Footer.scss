@@ -1,0 +1,21 @@
+.footer {
+  padding: .2rem .3rem .8rem .3rem;
+  line-height: .72rem;
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+
+  a { color: #999; }
+  p {
+    height: .72rem;
+    border-top: 1px solid #e4e4e4;
+  }
+  .icon-list {
+    height: .72rem;
+    .iconfont {
+      display: inline-block;
+      margin: 0 .15rem;
+      font-size: .4rem;
+    }
+  }
+}

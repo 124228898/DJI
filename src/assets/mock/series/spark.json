@@ -1,0 +1,83 @@
+{
+  "seriesData": {
+    "productGroup1Data": {
+      "title": "热卖配件",
+      "list": [{
+        "name": "\"晓\" Spark",
+        "price": "¥ 2899",
+        "remarks": "已优惠 ¥ 400",
+        "pic": "//product4.djicdn.com/uploads/sku/covers/30428/small_27e23f67-b75c-4eff-b79f-70f76e83dbf8%402x.png",
+        "url": ""
+      }, {
+        "name": "\"晓\" Spark",
+        "price": "¥ 2899",
+        "remarks": "已优惠 ¥ 400",
+        "pic": "//product4.djicdn.com/uploads/sku/covers/30428/small_27e23f67-b75c-4eff-b79f-70f76e83dbf8%402x.png",
+        "url": ""
+      }]
+    },
+    "productGroup2Data": [{
+      "pic": "//product1.djicdn.com/uploads/sku/covers/30428/small_27e23f67-b75c-4eff-b79f-70f76e83dbf8.png",
+      "name": "\"晓\" Spark",
+      "price": "¥ 2999",
+      "remarks": "已优惠 ¥ 300"
+    }, {
+      "pic": "//product1.djicdn.com/uploads/bundle/covers/30440/small_521ec80a-1b81-498a-8f3a-a27b031e51b9.png",
+      "name": "\"晓\" Spark 全能套装",
+      "price": "¥ 3999",
+      "remarks": "已优惠 ¥ 1394"
+    }, {
+      "pic": "//product2.djicdn.com/uploads/sku/covers/30436/small_fb253b0a-fe3d-4ddf-9ac9-bc0c0c1cc78e.png",
+      "name": "Spark 遥控器",
+      "price": "¥ 699",
+      "remarks": "已优惠 ¥ 200"
+    }, {
+      "pic": "//product2.djicdn.com/uploads/sku/covers/30431/small_b2a51a4b-60bd-491c-9b89-3211d6ee9d22.png",
+      "name": "Spark 智能飞行电池",
+      "price": "¥ 299",
+      "remarks": ""
+    }, {
+      "pic": "//product2.djicdn.com/uploads/sku/covers/30766/small_059c3571-6b2f-4c58-92fb-264d3a6e9a67.png",
+      "name": "Spark 移动充电盒",
+      "price": "¥ 499",
+      "remarks": ""
+    }, {
+      "pic": "//product2.djicdn.com/uploads/sku/covers/30434/small_0a3425b6-c741-4ab0-bd6e-a492d1f36f91.png",
+      "name": "Spark 快拆折叠螺旋桨",
+      "price": "¥ 49",
+      "remarks": ""
+    }, {
+      "pic": "//product2.djicdn.com/uploads/sku/covers/30435/small_a0a65e02-e071-4d43-902a-1ee74279c016.png",
+      "name": "Spark 桨叶保护罩",
+      "price": "¥ 99",
+      "remarks": ""
+    }, {
+      "pic": "//product2.djicdn.com/uploads/sku/covers/30433/small_1b744ae0-8ef5-49e9-9fca-9fb15596b339.png",
+      "name": "Spark 充电管家",
+      "price": "¥ 399",
+      "remarks": ""
+    }],
+    "productGroup3Data": {
+      "classifyList": [{
+        "name": "如影 Ronin 1",
+        "list": [{
+          "name": "11111111",
+          "price": "¥ 22999",
+          "remarks": "该商品暂时缺货",
+          "pic": "//product4.djicdn.com/uploads/sku/covers/30436/small_fb253b0a-fe3d-4ddf-9ac9-bc0c0c1cc78e%402x.png",
+          "src": "#"
+        }]
+      }, {
+        "name": "如影 Ronin 2",
+        "list": [{
+          "name": "Spark遥控器222222",
+          "price": "¥ 22999",
+          "remarks": "该商品暂时缺货",
+          "pic": "//product4.djicdn.com/uploads/sku/covers/30436/small_fb253b0a-fe3d-4ddf-9ac9-bc0c0c1cc78e%402x.png",
+          "src": "#"
+        }]
+      }],
+      "moreLink": "22222"
+    }
+  }
+}

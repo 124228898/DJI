@@ -1,0 +1,110 @@
+.search-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  z-index: 9999;
+  width: 101%;
+  max-width: 768px;
+  min-width: 320px;
+  padding: .4rem;
+  background-color: #fff;
+  transform: translateX(-50%);
+}
+.search-wrapper-hd {
+  position: relative;
+  overflow: hidden;
+
+  .search-input {
+    float: left;
+    width: 6rem;
+    padding: .21rem .66rem .19rem .76rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: .24rem;
+    background: url(https://asset3.djicdn.com/assets/images/header/search-1b1149d2cfccfc3f70a7b5a48182c71b.svg) no-repeat .2rem;
+    background-size: .4rem;
+  }
+  .btn-close {
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    width: .85rem;
+    height: .7rem;
+    font-size: .24rem;
+    text-align: center;
+    color: #707473;
+  }
+  .btn-reset {
+    position: absolute;
+    left: 5.4rem;
+    top: 50%;
+    width: .48rem;
+    height: .48rem;
+    background: url(https://asset4.djicdn.com/assets/images/header/close-26aa5f1a24ff74c0bb310856e9d73f8b.svg) 50% no-repeat;
+    background-size: 100% 100%;
+    transform: translateY(-50%);
+  }
+}
+.search-wrapper-bd {
+  .recommended {
+    .item-sub-title {
+      padding: .4rem 0 .3rem 0;
+      border-bottom: 1px solid #eee;
+      line-height: .32rem;
+      font-size: .24rem;
+      color: #333;
+    }
+    .item-list {
+      .item {
+        position: relative;
+        width: 100%;
+        height: .9rem;
+        line-height: .9rem;
+        font-size: .28rem;
+        border-bottom: 1px solid #eee;
+
+        a {
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #707473;
+
+          &:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 50%;
+            width: .48rem;
+            height: .48rem;
+            background: url(https://asset2.djicdn.com/assets/images/header/arrow-36dad273465fa755b72c37465a836692.svg) 50% no-repeat;
+            background-size: .3rem;
+            transform: rotate(-90deg) translateX(50%);
+          }
+        }
+      }
+    }
+  }
+  .tip {
+    width: 100%;
+    height: .9rem;
+    line-height: .9rem;
+    padding-left: .48rem;
+    margin: .4rem 0;
+    font-size: .24rem;
+    color: #333;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: url(https://asset3.djicdn.com/assets/images/header/search-1b1149d2cfccfc3f70a7b5a48182c71b.svg) no-repeat 0 .22rem;
+    background-size: .4rem;
+  }
+}
+.searchToggle-enter-active,
+.searchToggle-leave-active {
+  transition: opacity .1s;
+}
+.searchToggle-enter,
+.searchToggle-leave-to {
+  opacity: 0;
+}

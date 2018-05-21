@@ -1,0 +1,44 @@
+.series {
+  padding: 0 .3rem;
+  margin-bottom: .2rem;
+  background-color: #fff;
+
+  .series-hd {
+    padding: .3rem 0 .2rem 0;
+    line-height: 1;
+    font-size: .3rem;
+    color: #4a4a4a;
+
+    .more {
+      float: right;
+      font-size: .24rem;
+      color: #9B9B9B;
+    }
+  }
+  .series-bd {
+    padding-bottom: .2rem;
+    margin-left: -.16rem;
+
+    .product {
+      width: 3.72rem;
+      margin-left: .16rem;
+
+      .product-pic {
+        height: 2.52rem;
+        border: 1px solid #eee;
+        text-align: center;
+
+        img {
+          display: inline-block;
+          max-height: 100%;
+          vertical-align: middle;
+        }
+      }
+      .product-name {
+        margin: .06rem 0;
+        line-height: .4rem;
+        font-size: .26rem;
+      }
+    }
+  }
+}

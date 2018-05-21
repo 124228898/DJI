@@ -1,0 +1,203 @@
+.shopping-cart-hd {
+  height: .92rem;
+  line-height: .92rem;
+  font-size: .24rem;
+  color: #707473;
+  background: #f7f8f9;
+
+  .btn {
+    height: 100%;
+    padding: 0 .3rem;
+    color: #707473;
+  }
+  .btn-edit { float: right; }
+}
+.shopping-cart-bd {
+  padding-bottom: 2.5rem;
+
+  .shopping-cart-list {
+    .item {
+      position: relative;
+      padding: .3rem;
+      margin-bottom: .3rem;
+      background-color: #fff;
+      overflow: hidden;
+    }
+    .item-pic {
+      float: left;
+      width: 1.4rem;
+      height: 1.4rem;
+      margin-right: .12rem;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .item-info {
+      float: left;
+      width: 52%;
+    }
+    .item-name {
+      display: -webkit-box;
+      padding: .12rem 0 .04rem;
+      font-size: .28rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      color: #707473;
+    }
+    .item-price {
+      font-family: Open Sans;
+      font-weight: 600;
+      font-size: .28rem;
+      color: #2d2d2d;
+    }
+    .item-delivery-time {
+      font-size: .2rem;
+      font-weight: 400;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      color: #707473;
+    }
+    .item-control {
+      position: absolute;
+      top: .64rem;
+      right: .3rem;
+      width: 1.6rem;
+      height: .6rem;
+      border: 1px solid #ccc;
+      font-size: 0;
+      background-color: #eee;
+
+      .num {
+        display: block;
+        height: .6rem;
+        line-height: .6rem;
+        font-size: .28rem;
+        text-align: center;
+      }
+      .btn {
+        position: absolute;
+        top: 0;
+        width: 33.333%;
+        height: 100%;
+        background-color: #fff;
+
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          width: .2rem;
+          height: .04rem;
+          margin: -.02rem 0 0 -.1rem;
+          background-color: #979797;
+        }
+      }
+      .btn-cut {
+        left: 0;
+        border-right: 1px solid #ccc;
+      }
+      .btn-add {
+        right: 0;
+        border-left: 1px solid #ccc;
+
+        &:after {
+          transform: rotate(90deg);
+        }
+      }
+    }
+    .item-remove {
+      clear: both;
+      float: right;
+      font-size: .24rem;
+      color: #44abf2;
+    }
+  }
+  .shopping-cart-empty {
+    padding-top: 2.4rem;
+
+    .tip {
+      padding-bottom: .4rem;
+      text-align: center;
+      font-size: .28rem;
+    }
+    .icon-shopping-cart {
+      display: block;
+      width: 1.68rem;
+      height: 1.68rem;
+      margin: 0 auto;
+      background: url(https://asset1.djicdn.com/assets/images/icon/dji_cart_empty-4d799437bb386c58b77532a147af7566.png) 50% no-repeat;
+    }
+  }
+}
+.shopping-cart-ft {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 768px;
+  z-index: 100;
+  background: #fff;
+  transform: translateX(-50%);
+
+  .total {
+    padding: .2rem .4rem .4rem;
+  }
+  .total-info {
+    padding-bottom: .2rem;
+    line-height: .48rem;
+    overflow: hidden;
+  }
+  .total-num {
+    float: left;
+    line-height: 24px;
+    font-weight: lighter;
+    font-size: .28rem;
+    color: #707473;
+  }
+  .total-price {
+    float: right;
+    line-height: 24px;
+    font-size: .28rem;
+    color: #333;
+  }
+  .remarks {
+    margin-bottom: 10px;
+    color: #fc495f;
+    font-size: 10px;
+    clear: both;
+    text-align: right;
+  }
+  .btn-submit {
+    position: relative;
+    width: 100%;
+    height: .68rem;
+    line-height: .68rem;
+    padding: 0 .28rem;
+    margin: 0 auto;
+    font-size: .28rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #44a8f2;
+    font-family: Open Sans,Arial,sans-serif;
+  }
+  .btn-back {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: .28rem;
+    color: #fff;
+    text-align: center;
+    background-color: #44a8f2;
+  }
+}
