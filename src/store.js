@@ -19,9 +19,9 @@ function totalNumber() {
 export default new Vuex.Store({
   state: {
     totalNumber: totalNumber(), // 购物车商品数量
-    curProduct: {}, // 当前产品数据
-    shoppingCart: {}, // 购物车数据
-    series: {} // 系列数据对象
+    curProduct: {},             // 当前产品数据
+    shoppingCart: {},           // 购物车数据
+    series: {}                  // 系列数据对象
   },
   mutations: {
     // 添加系列页面导航数据
